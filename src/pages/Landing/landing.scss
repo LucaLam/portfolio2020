@@ -1,0 +1,26 @@
+.landing {
+  background-color: rgba(0,0,0,0.9);
+  height: 100vh;
+
+  .headshot-headline-container {
+      position: relative;
+      top: 15%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-content: center;
+
+    .landing-headline {
+      color: snow;
+      font-size: 70px;
+      margin-bottom: 50px;
+    }
+
+    .landing-headshot {
+      width: 20%;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+  }
+
+}
