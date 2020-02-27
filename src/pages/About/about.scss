@@ -1,7 +1,10 @@
-div{
+.about-container{
     background-color: rgba(0, 0, 0, 0.9);
-}
+    height: 100vh;
+    padding: 50px;
 
-p{
-    color: snow;
+    .about-text{
+        color: snow;
+        font-size: 28px;
+    }
 }
