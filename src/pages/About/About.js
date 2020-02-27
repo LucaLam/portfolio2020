@@ -1,5 +1,7 @@
 import React from 'react'
 
+import Tech from '../../components/technology-component/Tech'
+
 import './about.scss'
 
 const About =()=> {
@@ -29,6 +31,7 @@ const About =()=> {
               snapping photos, doing brazilian jiu-jitsu, or making a cocktail
               with Campari.
             </p>
+            <Tech />
           </div>
         );
 }

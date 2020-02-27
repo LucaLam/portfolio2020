@@ -12,7 +12,9 @@ const Header = () => {
                     <p className='header-link'>About</p>
                 </Link>
                 <p className='header-link'>Projects</p>
+                <Link to='/contact'>
                 <p className='header-link'>Contact</p>
+                </Link>
             </div>
         )
 }

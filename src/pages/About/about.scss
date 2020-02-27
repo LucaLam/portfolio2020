@@ -1,10 +1,11 @@
 .about-container{
     background-color: rgba(0, 0, 0, 0.9);
     height: 100vh;
-    padding: 50px;
+    padding-top: 50px;
 
     .about-text{
         color: snow;
         font-size: 28px;
+        padding: 0 50px 0 50px;
     }
 }
