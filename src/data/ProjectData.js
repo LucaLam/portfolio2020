@@ -20,3 +20,5 @@ const projectData = [
     images: '',
 }
 ]
+
+export default projectData
