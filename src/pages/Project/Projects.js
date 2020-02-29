@@ -7,7 +7,7 @@ import CardList from '../../components/card-list/CardList'
 export class Projects extends Component {
     render() {
         return (
-            <div>
+            <div className='projects-page'>
                 <CardList />
             </div>
         )
