@@ -1,7 +1,5 @@
 import React, { Component } from 'react'
 
-import './cardlist.scss'
-
 import Card from '../card/Card'
 import data from '../../data/ProjectData';
 
