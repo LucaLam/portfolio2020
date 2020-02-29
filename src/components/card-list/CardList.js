@@ -14,7 +14,8 @@ export class CardList extends Component {
         const {data} = this.state
         return (
             <div className='card-list'>
-                <Card projects={data} />
+            { data.map(project => <Card project={project}/>)
+            }
             </div>
         )
     }

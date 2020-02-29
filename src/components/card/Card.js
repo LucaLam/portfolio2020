@@ -1,19 +1,18 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-export class Card extends Component {
+import './card.scss'
 
+const Card =({project})=> {
+
+    const {name, description, images} = project
     
-
-    render() {
-        const projects = this.props
-        console.log(projects)
-        
         return (
             <div>
-                <h1>This is a card component!</h1>
+            <h1>{name}</h1>
+            <p>{description}</p>
+            <p>{images}</p>
             </div>
         )
-    }
 }
 
 export default Card
