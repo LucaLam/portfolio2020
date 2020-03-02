@@ -17,14 +17,32 @@
       font-size: 70px;
       margin-bottom: 50px;
       font-family: $default-text-style;
+      animation: fadein 5s;
     }
+
+      @keyframes fadein {
+        from { opacity: 0; }
+        to   { opacity: 1; }
+    }
+
 
     .landing-headshot {
       width: 20%;
       border-radius: 50%;
       object-fit: cover;
       margin-bottom: 20px;
+      transition: transform 2s;
+      animation: fadein 4s;
+
+      &:hover{
+        transform: rotate(360deg);
+      }
     }
+
+    @keyframes fadein {
+      from { opacity: 0; }
+      to   { opacity: 1; }
+  }
 
     .landing-sub-header{
       font-family: $default-text-style;
