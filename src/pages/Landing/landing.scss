@@ -1,3 +1,5 @@
+@import '../../styles/variables.scss';
+
 .landing {
   background-color: rgba(0,0,0,0.9);
   height: 100vh;
@@ -11,9 +13,10 @@
       align-content: center;
 
     .landing-headline {
-      color: snow;
+      color: $default-font-color;
       font-size: 70px;
       margin-bottom: 50px;
+      font-family: $default-text-style;
     }
 
     .landing-headshot {

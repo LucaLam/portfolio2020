@@ -8,6 +8,7 @@ export class Projects extends Component {
     render() {
         return (
             <div className='projects-page'>
+            <h1 className='project-header'>Projects</h1>
                 <CardList />
             </div>
         )

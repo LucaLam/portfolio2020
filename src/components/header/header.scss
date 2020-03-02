@@ -1,19 +1,26 @@
+@import '../../styles/variables.scss';
+
 .header-container{
     position: relative;
-    top: 30%;
+    top: 20%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    padding: 20px;
-    height: 100px;
+    padding: 40px;
+    height: 180px;
 
     .header-link{
-        color: snow;
+        color: $default-font-color;
+        font-size: 18px;
+        font-family: $default-text-style;
 
         &:hover{
-            color: pink; 
-            opacity: 0.6;
+            color: $default-on-hover-color; 
+            opacity: 0.8;
+            cursor: pointer;
+            padding-bottom: 5px;
+            border-bottom: solid $default-on-hover-color 3px;
         }
     }
 }

@@ -1,11 +1,20 @@
+@import "../../styles/variables.scss";
+
 .about-container{
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: #465E73;
     height: 100vh;
-    padding-top: 50px;
+
+    .about-header{
+        color: $default-font-color;
+        padding: 50px;
+        padding-left: 150px;
+        font-family: $default-text-style;
+    }
 
     .about-text{
-        color: snow;
+        color: $default-font-color;
         font-size: 28px;
-        padding: 0 50px 0 50px;
+        padding: 0 150px 0 150px;
+        font-family: $default-text-style;
     }
 }

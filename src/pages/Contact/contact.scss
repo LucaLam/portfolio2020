@@ -1,10 +1,28 @@
-.contact-page{
-    background-color: rgba($color: #000000, $alpha: 0.9);
-    height: 20vh;
-    display: flex;
-    flex-direction: row;
-}
+@import '../../styles/variables.scss';
 
-h4, p{
-    color: snow;
+.contact-page{
+    background-color: #032059;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .contact-tag{
+        font-size: 60px;
+        padding-top: 70px;
+        text-align: center;
+        font-family: $contact-font;
+        color: $default-font-color;
+
+        .email-tag{
+            &:hover{
+                color: $default-on-hover-color;
+            }
+        }
+    }
+    .social-container{
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 50px;
+    }
 }

@@ -1,5 +1,7 @@
+@import '../../styles/variables.scss';
+
 .project-card{
-    width: 70%;
+    width: 64%;
     height: 80%;
     display: flex;
     flex-direction: column;
@@ -7,12 +9,12 @@
     margin-bottom: 50px;
 
         .project-card-title{
-            color: black;
+            color: $default-project-page-font;
             margin-bottom: 10px;
         }
     
         .project-card-description{
-            color: black;
+            color: $default-project-page-font;
         }
 
     .button-container{
@@ -29,6 +31,14 @@
             border: 2px black solid;
             margin-right: 30px;
             text-align: center;
+
+            &:hover{
+                border-radius: 70px;
+                background-color:$default-on-hover-color;
+                border: 2px snow solid;
+                color: $default-font-color;
+
+            }
 
         }
     }

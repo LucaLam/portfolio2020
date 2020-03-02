@@ -6,14 +6,15 @@ const Contact = ()=>{
         return (
             <div className='contact-page'>
                 <div className='contact-container'>
-                    <h4>Contact</h4>
-                    <p>luca.lamanna@hotmail.com</p>
+                    <p className='contact-tag'>If you're looking for a developer <br/> <a className='email-tag'>Reach Out!</a></p>
                 </div>
                 <div className='social-container'>
-                    <h4>Social</h4>
                     <p>Instagram</p>
                     <p>LinkedIn</p>
                     <p>GitHub</p>
+                </div>
+                <div>
+                    <p>Made with love</p>
                 </div>
 
             </div>

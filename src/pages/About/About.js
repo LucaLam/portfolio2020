@@ -1,12 +1,13 @@
 import React from 'react'
 
-import Tech from '../../components/technology-component/Tech'
+// import Tech from '../../components/technology-component/Tech'
 
 import './about.scss'
 
 const About =()=> {
         return (
           <div className="about-container">
+            <h1 className='about-header'>About Me</h1>
             <p className="about-text">
               After 2+ years of teaching English in Quito, Ecuador, I was on the
               pursuit for something that offered regular challenges and greater
@@ -28,10 +29,10 @@ const About =()=> {
             <br />
             <p className="about-text">
               When I'm not working or coding, you can find me on a hike and
-              snapping photos, doing brazilian jiu-jitsu, or making a cocktail
+              snapping photos, doing Brazilian Jiu-Jitsu, or making a cocktail
               with Campari.
             </p>
-            <Tech />
+            {/* <Tech /> */}
           </div>
         );
 }
