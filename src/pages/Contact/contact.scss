@@ -17,6 +17,7 @@
         .email-tag{
             &:hover{
                 color: $default-on-hover-color;
+                cursor: pointer;
             }
         }
     }
@@ -24,5 +25,13 @@
         display: flex;
         flex-direction: row;
         padding-bottom: 50px;
+
+        .social-icon{
+
+            &:hover{
+                fill: $default-on-hover-color;
+                cursor: pointer;
+            }
+        }
     }
 }
