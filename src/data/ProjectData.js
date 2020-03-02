@@ -16,7 +16,7 @@ const projectData = [
 {
     id: 3,
     name: "Horoscope App",
-    description: "This was a project my partner and I built for a 24 hack-a-thon held during my course. We wanted to build something light-hearted and fun and we decided to build a horoscope compatibility app.",
+    description: "This was a project my partner and I built for a 24 hour hack-a-thon held during my course. We wanted to build something light-hearted and fun and we decided to build a horoscope compatibility app.",
     gitUrl: 'https://github.com/yukikishimoto/ispywithmygemini',
     projectUrl: null,
 }

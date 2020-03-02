@@ -23,6 +23,13 @@
       width: 20%;
       border-radius: 50%;
       object-fit: cover;
+      margin-bottom: 20px;
+    }
+
+    .landing-sub-header{
+      font-family: $default-text-style;
+      color: $default-font-color;
+      font-size: 13px;
     }
   }
 

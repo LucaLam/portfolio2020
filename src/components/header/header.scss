@@ -7,20 +7,21 @@
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    padding: 40px;
-    height: 180px;
+    padding: 0px 40px 0px 40px;
+    height: 100px;
 
     .header-link{
         color: $default-font-color;
-        font-size: 18px;
+        font-size: 20px;
         font-family: $default-text-style;
 
         &:hover{
-            color: $default-on-hover-color; 
+            color: snow; 
             opacity: 0.8;
+            font-weight: bold;
             cursor: pointer;
             padding-bottom: 5px;
-            border-bottom: solid $default-on-hover-color 3px;
+            border-bottom: solid snow 5px;
         }
     }
 }

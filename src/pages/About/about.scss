@@ -1,13 +1,14 @@
 @import "../../styles/variables.scss";
 
 .about-container{
-    background-color: #465E73;
+    background-color: #7394BF;
     height: 100vh;
 
     .about-header{
         color: $default-font-color;
         padding: 50px;
         padding-left: 150px;
+        font-size: 40px;
         font-family: $default-text-style;
     }
 
