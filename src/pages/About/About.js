@@ -15,7 +15,7 @@ const About =()=> {
             </p>
             <br/>
             <p className="about-text">
-              I’ve recently graduated from BrainStation’s 12-week full-time
+              I’ve recently graduated from BrainStation’s full-time
               intensive Web Development program and during my time at
               BrainStation, I have not only learned many programming languages
               and frameworks, but I’ve also learned to embrace the challenges
