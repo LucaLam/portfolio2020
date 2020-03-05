@@ -42,13 +42,13 @@
       transition: transform 2s;
       animation: fadein 4s;
 
-      @include mobile{
-        width: 50%;
-    }
-
     @include tablet {
       width: 25%;
     }
+
+    @include mobile{
+      width: 50%;
+  }
 
       &:hover{
         transform: rotate(360deg);
