@@ -7,12 +7,25 @@
     flex-direction: column;
     justify-content: space-between;
 
+    @include mobile{
+        height:  70vh;
+    }
+
+    @include tablet {
+        height: 80vh;
+    }
+
     .contact-tag{
         font-size: 60px;
         padding-top: 70px;
         text-align: center;
         font-family: $contact-font;
         color: $default-font-color;
+
+        @include mobile{
+            font-size: 40px;
+        }
+        
 
         .email-tag{
             &:hover{

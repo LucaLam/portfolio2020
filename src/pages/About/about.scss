@@ -10,6 +10,16 @@
         padding-left: 150px;
         font-size: 40px;
         font-family: $default-text-style;
+
+        @include mobile{
+            padding: 10px;
+            font-size: 25px;
+        }
+
+        @include tablet {
+            padding: 10px;
+            font-size: 25px;
+          }
     }
 
     .about-text{
@@ -17,5 +27,15 @@
         font-size: 28px;
         padding: 0 150px 0 150px;
         font-family: $default-text-style;
+
+        @include mobile{
+            padding: 10px;
+            font-size: 15px;
+        }
+
+        @include tablet {
+            padding: 10px;
+            font-size: 20px;
+          }
     }
 }

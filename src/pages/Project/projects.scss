@@ -11,5 +11,17 @@
         border-bottom: $default-on-hover-color solid 5px;
         width: 14%;
         padding-bottom: 4px;
+
+        @include mobile{
+            font-size: 30px;
+            margin-left: 30%;
+            padding: 0;
+            text-align: center;
+            width: 35%;
+        }
+
+        @include tablet {
+            width: 25%;
+          }
     }
 }

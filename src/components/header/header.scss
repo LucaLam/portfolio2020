@@ -15,6 +15,10 @@
         font-size: 20px;
         font-family: $default-text-style;
 
+        @include mobile{
+            font-size: 15px;
+        }
+
         &:hover{
             color: snow; 
             opacity: 0.8;

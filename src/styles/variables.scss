@@ -6,3 +6,12 @@ $default-project-page-font: #0D0D0D;
 
 $default-text-style: 'Noto Sans', ;
 $contact-font: 'Pacifico', ;
+
+@mixin mobile {
+    @media screen and (max-width: 767px) {@content;}
+}
+
+@mixin tablet {
+    @media screen and (max-width: 1023px) { @content;}
+
+}

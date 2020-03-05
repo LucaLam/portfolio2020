@@ -11,10 +11,18 @@
         .project-card-title{
             color: $default-project-page-font;
             margin-bottom: 10px;
+
+            @include mobile{
+                text-align: center;
+            }
         }
     
         .project-card-description{
             color: $default-project-page-font;
+
+            @include mobile{
+                text-align: center;
+            }
         }
 
     .button-container{
@@ -32,6 +40,13 @@
             margin-right: 30px;
             text-align: center;
             opacity: 0.7;
+
+            @include mobile{
+                width: 100px;
+                font-size: 12px;
+                margin: 0;
+                margin-right: 10px;
+            }
         }
         
 
@@ -41,6 +56,13 @@
             border: 2px black solid;
             margin-right: 30px;
             text-align: center;
+
+            @include mobile{
+                width: 100px;
+                font-size: 12px;
+                margin: 0;
+                margin-right: 10px;
+            }
 
             &:hover{
                 border-radius: 70px;
