@@ -11,6 +11,7 @@
         .project-card-title{
             color: $default-project-page-font;
             margin-bottom: 10px;
+            font-family: $header-font;
 
             @include mobile{
                 text-align: center;
@@ -19,6 +20,7 @@
     
         .project-card-description{
             color: $default-project-page-font;
+            font-family: $default-text-style;
 
             @include mobile{
                 text-align: center;
@@ -56,6 +58,7 @@
             border: 2px black solid;
             margin-right: 30px;
             text-align: center;
+            font-family: $default-text-style;
 
             @include mobile{
                 width: 100px;

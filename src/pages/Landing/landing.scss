@@ -20,7 +20,7 @@
       color: $default-font-color;
       font-size: 70px;
       margin-bottom: 50px;
-      font-family: $default-text-style;
+      font-family: $header-font;
       animation: popup 3s;
 
       @include mobile{
@@ -31,7 +31,7 @@
     @keyframes popup {
       0% { 
       opacity: 0;
-      transform: translateY(50px); 
+      transform: translateY(20px); 
         }
       100%{
         opacity: 1;
@@ -54,9 +54,6 @@
       width: 50%;
   }
 
-      &:hover{
-        transform: rotate(360deg);
-      }
     }
   }
 

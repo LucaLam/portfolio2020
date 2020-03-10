@@ -9,7 +9,7 @@ const projectData = [
 {
     id: 2,
     name: "BarTool App",
-    description: "This app was my final project for my course. I targeted a real life problem of being a bartender - people ordering off the menu, and created an app that solves that problem. The app is intended to be a mobile app and I plan on re-building it in React Native.",
+    description: "This app was my final project for my course. I targeted a real life problem of being a bartender - people ordering off the menu, and created an app that solves that problem. The app is intended to be a mobile app and I plan on re-building it in React Native. The app access code is 123.",
     gitUrl: 'https://github.com/LucaLam/BarTool-app',
     projectUrl: 'https://bartool.netlify.com/',
 },
