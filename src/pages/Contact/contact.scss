@@ -20,7 +20,7 @@
         padding-top: 70px;
         text-align: center;
         font-family: $header-font;
-        color: $default-font-color;
+        color: $secondary-font-color;
 
         @include mobile{
             font-size: 40px;
@@ -29,7 +29,7 @@
 
         .email-tag{
             &:hover{
-                color: $default-on-hover-color;
+                color: $default-secondary-color;
                 cursor: pointer;
             }
         }
@@ -43,7 +43,7 @@
             margin-right: 10px;
 
             &:hover{
-                fill: $default-on-hover-color;
+                fill: $default-secondary-color;
                 cursor: pointer;
             }
         }

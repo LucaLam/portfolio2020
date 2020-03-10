@@ -1,11 +1,15 @@
 @import '../../styles/variables.scss';
 
 .landing {
-  background-color: rgba(0,0,0,0.9);
+  background-color:darken(#032059, 7%);
   height: 100vh;
 
+  @include tablet{
+    height: 80vh;
+  }
+
   @include mobile{
-    height: 87vh;
+    height: 70vh;
 }
 
   .headshot-headline-container {
@@ -17,21 +21,21 @@
       align-content: center;
 
     .landing-headline {
-      color: $default-font-color;
-      font-size: 70px;
-      margin-bottom: 50px;
+      color: $secondary-font-color;
+      font-size: 7rem;
+      margin-bottom: 5rem;
       font-family: $header-font;
       animation: popup 3s;
 
       @include mobile{
-        font-size: 30px;
+        font-size: 3rem;
       }
     }
 
     @keyframes popup {
       0% { 
       opacity: 0;
-      transform: translateY(20px); 
+      transform: translateY(2rem); 
         }
       100%{
         opacity: 1;
@@ -44,14 +48,14 @@
       width: 20%;
       border-radius: 50%;
       object-fit: cover;
-      margin-bottom: 20px;
+      margin-bottom: 2rem;
 
     @include tablet {
-      width: 25%;
+      width: 20%;
     }
 
     @include mobile{
-      width: 50%;
+      width: 30%;
   }
 
     }
@@ -59,12 +63,12 @@
 
     .landing-sub-header{
       font-family: $default-text-style;
-      color: $default-font-color;
-      font-size: 13px;
+      color: $secondary-font-color;
+      font-size: 1.3rem;
 
       @include mobile{
-        font-size: 9px;
-        margin: 10px 20px 0 20px;
+        font-size: .9rem;
+        margin: 1rem 2rem 0 2rem;
       }
     }
   }
