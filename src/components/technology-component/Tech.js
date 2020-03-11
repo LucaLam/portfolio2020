@@ -55,7 +55,7 @@ export class Tech extends Component {
 
     return (
       <div className="tech-stack-container">
-        <h1 className='component-header'>Tech Stack:</h1>
+        <h1 className='component-header'>Technology & Frameworks</h1>
         <div className="lists-container">
         <div className='list-container'>
           <h2 className='list-header' onClick={this.handleComfort}>What I'm Comfortable with</h2>

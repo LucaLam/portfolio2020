@@ -1,46 +1,26 @@
+@import "../../styles/variables.scss";
+
 .tech-stack-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    background-color: inherit;
-    padding: 50px 50px 70px 50px;
+    height: 80vh;
+    
 
     .component-header{
-        color: snow;
-        margin: 0;
-        padding-bottom: 30px;
+        
     }
     .lists-container{
-        width: 100%;
-        margin: 0;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
+       
 
         .list-container{
-            display: flex;
-            flex-direction: column;
+
 
             .list-header{
-                color: snow;
-
-                &:hover{
-                    color: pink;
-                    opacity: 0.7;
-                    cursor: pointer;
-                }
+                
             }
 
             .list{
-                margin: 0;
-                padding: 20px;
+                
+
             }
         }
     }
-}
-
-li{
-    color: snow;
-
 }
