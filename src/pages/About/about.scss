@@ -2,7 +2,7 @@
 
 .about-container{
     background-color: #fff;
-    height: 100vh;
+    height: 70vh;
 
     .about-header{
         color: $default-secondary-color;
@@ -19,7 +19,7 @@
         @include tablet {
             padding: 1rem;
             font-size: 2.5rem;
-          }
+        }
     }
 
     .about-text{

@@ -55,15 +55,47 @@ export class Tech extends Component {
 
     return (
       <div className="tech-stack-container">
-        <h1 className='component-header'>Technology & Frameworks</h1>
-        <div className="lists-container">
-        <div className='list-container'>
-          <h2 className='list-header' onClick={this.handleComfort}>What I'm Comfortable with</h2>
-          <ul className='list'>{showComfort ? comfortable.map(i => <li>{i}</li>) : null}</ul>
-          </div>
-          <div className='list-container'>
-          <h2 className='list-header' onClick={this.handleLearn}>What I'm Learning</h2>
-          <ul className='list'>{showLearn ? learning.map(i => <li>{i}</li>) : null}</ul>
+        <h1 className="component-header">Technology & Frameworks</h1>
+
+        <div className="row">
+          <div className="col-1-of-3">
+
+            <div className="card">
+                <div className="card__side card__side--front">
+                  <div className="card__heading">
+                    What I've Dabbled In
+                  </div>
+                </div>
+
+                <div className="card__side card__side--back">
+                  <div className="card__details">
+                    <ul>
+                      {
+                        comfortable.map(i => <li>{i}</li>)
+                      }
+                    </ul>
+                  </div>
+                </div>
+            </div>
+
+            <div className="card card-2">
+                <div className="card__side card__side--front">
+                  <div className="card__heading">
+                    What I'm Learning
+                  </div>
+                </div>
+
+                <div className="card__side card__side--back">
+                  <div className="card__details">
+                    <ul>
+                      {
+                        learning.map(i => <li>{i}</li>)
+                      }
+                    </ul>
+                  </div>
+                </div>
+            </div>
+
           </div>
         </div>
       </div>
