@@ -49,6 +49,7 @@
       border-radius: 50%;
       object-fit: cover;
       margin-bottom: 2rem;
+      animation: popup 3s;
 
     @include tablet {
       width: 20%;

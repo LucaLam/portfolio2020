@@ -1,7 +1,7 @@
 @import '../../styles/variables.scss';
 
 .header-container{
-    background-color: lighten(#032059, 1%);
+    border-top: solid $secondary-font-color .2rem;
     position: relative;
     top: 20%;
     display: flex;
@@ -10,7 +10,7 @@
     align-items: center;
     padding: 0px 4rem 0px 4rem;
     height: 10rem;
-    width: 100%;
+    width: 95%;
     margin: 0 auto;
 
     .header-link{
