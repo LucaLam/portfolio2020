@@ -22,36 +22,10 @@ export class Tech extends Component {
       "GraqhQL"
     ],
 
-    showComfort: false,
-    showLearn: false
-  };
-
-  handleComfort = e => {
-    e.preventDefault();
-    this.setState({
-      showComfort: true
-    });
-    if (this.state.showComfort) {
-      this.setState({
-        showComfort: false
-      });
-    }
-  };
-
-  handleLearn = e => {
-    e.preventDefault();
-    this.setState({
-      showLearn: true
-    });
-    if (this.state.showLearn) {
-      this.setState({
-        showLearn: false
-      });
-    }
   };
 
   render() {
-    const { comfortable, learning, showComfort, showLearn } = this.state;
+    const { comfortable, learning } = this.state;
 
     return (
       <div className="tech-stack-container">

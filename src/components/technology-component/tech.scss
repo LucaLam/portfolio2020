@@ -6,10 +6,11 @@
 
     .component-header{
         color: $default-secondary-color;
-        padding: 5rem;
-        padding-left: 15rem;
+        padding: 5rem 0;
         font-size: 4rem;
-        font-family: $header-font;
+        font-family: $default-text-style;
+        font-weight: bold;
+        text-align: center;
 
     }
 
@@ -44,7 +45,7 @@
         perspective: 150rem;
         position: relative;
         height: 30rem;
-        margin-left: 5rem;
+        margin-left: 12rem;
         
         &__side{
 

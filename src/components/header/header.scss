@@ -3,24 +3,20 @@
 .header-container{
     border-top: solid $secondary-font-color .2rem;
     position: relative;
-    top: 20%;
+    top: 12%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
     padding: 0px 4rem 0px 4rem;
     height: 10rem;
-    width: 95%;
+    width: 80%;
     margin: 0 auto;
 
     .header-link{
         color: $secondary-font-color;
         font-size: 2rem;
         font-family: $default-text-style;
-
-        @include mobile{
-            font-size: 1.5rem;
-        }
 
         &:hover{
             color: snow; 

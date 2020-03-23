@@ -1,6 +1,13 @@
 const projectData = [
     {
-    id: 1,
+        id: 4,
+        name: "Revival 1863",
+        description: "I decided to re-build the site for the bar that I work at to practice CSS/SCSS.",
+        gitUrl: 'https://github.com/LucaLam/revival-site',
+        projectUrl: '' ,
+    },
+    {
+    id: 3,
     name: "Ecuador Tourism App",
     description: "This website was inspired by a project that our hack-a-thon group failed at during my course. I decided to rebuild it using Ecuador and highlighting touristic destinations for each province.",
     gitUrl: 'https://github.com/LucaLam/ecuador',
@@ -14,7 +21,7 @@ const projectData = [
     projectUrl: 'https://bartool.netlify.com/',
 },
 {
-    id: 3,
+    id: 1,
     name: "Horoscope App",
     description: "This was a project my partner and I built for a 24 hour hack-a-thon held during my course. We wanted to build something light-hearted and fun and we decided to build a horoscope compatibility app.",
     gitUrl: 'https://github.com/yukikishimoto/ispywithmygemini',
