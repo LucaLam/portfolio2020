@@ -15,7 +15,7 @@ const Header = () => {
             smooth={true}
             offset={-70}
             duration= {500}>
-            <p className='header-link'>About</p>
+            <p className='header-link'>About &darr;</p>
             </Link>
             <Link
             activeClass="active"
@@ -24,7 +24,7 @@ const Header = () => {
             smooth={true}
             offset={-70}
             duration= {500}>
-            <p className='header-link'>Projects</p>
+            <p className='header-link'>Projects &darr;</p>
             </Link>
             <Link
             activeClass="active"
@@ -33,7 +33,7 @@ const Header = () => {
             smooth={true}
             offset={-70}
             duration= {500}>
-            <p className='header-link'>Contact</p>
+            <p className='header-link'>Contact &darr;</p>
             </Link>
             </div>
         )

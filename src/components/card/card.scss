@@ -5,8 +5,7 @@
     height: 80%;
     display: flex;
     flex-direction: column;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
+    padding: 5rem;
 
         .project-card-title{
             color: $default-font-color;
@@ -14,6 +13,7 @@
             font-family: $default-text-style;
             font-size: 3rem;
             font-weight: 200;
+            text-transform: uppercase;
 
         }
     
@@ -54,15 +54,13 @@
             font-family: $default-text-style;
             font-size: 1.5rem;
             
-
             &:hover{
-                border-radius: 7rem;
+                border-radius: 6rem;
                 background-color:$default-secondary-color;
-                border: none;
+                border: .2rem transparent solid;
                 color: $secondary-font-color;
                 transform: translateY(-.3rem);
                 box-shadow: 0 1rem 2rem rgba(0,0,0,.2);
-
             }
 
             &:active {

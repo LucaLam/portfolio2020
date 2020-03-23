@@ -2,14 +2,16 @@
 
 .tech-stack-container{
     height: 100vh;
+    background-color: $secondary-background-color;
     
 
     .component-header{
         color: $default-secondary-color;
         padding: 5rem 0;
-        font-size: 4rem;
+        font-size: 3.5rem;
         font-family: $default-text-style;
         font-weight: bold;
+        text-transform: uppercase;
         text-align: center;
 
     }
@@ -49,7 +51,7 @@
         
         &__side{
 
-        height: 50rem;
+        height: 40rem;
         transition: all .3s ease;
         position: absolute;
         width: 80%;

@@ -1,6 +1,10 @@
-import React from 'react'
+import React from 'react';
 
-import './about.scss'
+import './about.scss';
+
+import about1 from "../../assets/about-img.jpg";
+import about2 from "../../assets/about-img-2.jpg";
+import about3 from "../../assets/about-img-3.jpg";
 
 const About =()=> {
         return (
@@ -26,6 +30,11 @@ const About =()=> {
               snapping photos, doing Brazilian Jiu-Jitsu, or making a cocktail
               with Campari.
             </p>
+            <div className="img-container">
+            <img src={about1} alt="" className="about-img"/>
+            <img src={about2} alt="" className="about-img"/>
+            <img src={about3} alt="" className="about-img"/>
+            </div>
           </div>
         );
 }

@@ -17,7 +17,9 @@
         color: $secondary-font-color;
         font-size: 2rem;
         font-family: $default-text-style;
-
+        text-transform: uppercase;
+        
+        
         &:hover{
             color: snow; 
             opacity: 0.8;

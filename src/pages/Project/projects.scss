@@ -2,13 +2,15 @@
 
 
 .projects-page{
-    margin-top: 5rem;
+    margin-top: -7rem;
+    background-color: $secondary-background-color-darker;
+    clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 100%);
 
     .project-header{
-        margin-top: 8rem;
         text-align: center;
-        font-size: 4rem;
+        font-size: 3.5rem;
         font-family: $default-text-style;
+        text-transform: uppercase;
         font-weight: bold;
         width: 14%;
         color: $default-secondary-color;

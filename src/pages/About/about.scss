@@ -2,15 +2,18 @@
 
 .about-container{
     background-color: #fff;
-    height: 70vh;
+    height: 100vh;
+    background-color: $secondary-background-color;
+    padding: 0 5rem;
 
     .about-header{
         color: $default-secondary-color;
         padding: 5rem;
-        font-size: 4rem;
+        font-size: 3.5rem;
         font-family: $default-text-style;
         font-weight: bold;
         text-align: center;
+        text-transform: uppercase;
 
     }
 
@@ -27,4 +30,30 @@
 
         hyphens: auto;
     }
+}
+
+.img-container{
+    height: 30rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+
+
+.about-img{
+    width: 15%;
+    border-radius: 100%;
+    object-fit: cover;
+    margin: 5rem;
+    box-shadow: 0 1.5rem 4rem rgba(#000000, .15);
+
+    &:hover{
+        transform: scale(1.3);
+    }
+}
+
+&:hover .about-img:not(:hover){
+    transform: scale(.95);
+    filter: blur(3px) brightness(80%);
+}
 }
