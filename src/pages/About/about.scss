@@ -3,7 +3,6 @@
 .about-container{
     background-color: #fff;
     height: 100vh;
-    background-color: $secondary-background-color;
     padding: 0 5rem;
 
     .about-header{
@@ -23,12 +22,6 @@
         padding: 0 15rem 0 15rem;
         font-family: $default-text-style;
         line-height: 3.5rem;
-
-        column-count: 2;
-        column-gap: 4rem;
-        column-rule: 1px solid #eee;
-
-        hyphens: auto;
     }
 }
 
@@ -53,7 +46,7 @@
 }
 
 &:hover .about-img:not(:hover){
-    transform: scale(.95);
-    filter: blur(3px) brightness(80%);
+    transform: scale(.70);
+    filter: blur(2px);
 }
 }

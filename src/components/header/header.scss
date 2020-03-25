@@ -18,15 +18,35 @@
         font-size: 2rem;
         font-family: $default-text-style;
         text-transform: uppercase;
-        
-        
-        &:hover{
-            color: snow; 
-            opacity: 0.8;
-            font-weight: bold;
+        display: inline-block;
+        font-size: 1.8rem;
+        font-weight: 300;
+        padding: 1rem 2rem;
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        background-image: linear-gradient(120deg, transparent 0%, transparent 50%, white 50%);
+        background-size: 250%;
+        transition: all, .4s;
+    
+        &:hover,
+        &:active{
             cursor: pointer;
-            padding-bottom: .5rem;
-            border-bottom: solid snow .5rem;
+            background-position: 100%;
+            color: #032059;
+            transform: translateX(1rem);
+            opacity: 0.8;
         }
+        
+        
+        // &:hover{
+        //     color: snow; 
+        //     opacity: 0.8;
+        //     font-weight: bold;
+        //     cursor: pointer;
+        //     padding-bottom: .5rem;
+        //     border-bottom: solid snow .5rem;
+        // }
     }
 }
+

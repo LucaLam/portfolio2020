@@ -1,8 +1,9 @@
 @import "../../styles/variables.scss";
 
 .tech-stack-container{
+    margin-top: 18rem;
     height: 100vh;
-    background-color: $secondary-background-color;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
     
 
     .component-header{
@@ -19,6 +20,8 @@
     .row{
         max-width: 95vw;
         margin: 0 auto;
+        height: 80%;
+        margin-left: 12rem;
     
         &:not(:last-child){
             margin-bottom: 2rem;
@@ -28,14 +31,11 @@
     
         [class^="col-"]{
             float: left;
-    
-            &:not(:last-child){
-                margin-right: 2rem;
-            }
         }    
     
         .col-1-of-3 {
             width: calc((100% -2 * 2rem) / 2);
+            height: 80%;
         }
     
     }
@@ -47,7 +47,7 @@
         perspective: 150rem;
         position: relative;
         height: 30rem;
-        margin-left: 12rem;
+        // margin-left: 12rem;
         
         &__side{
 
