@@ -19,7 +19,7 @@ export class Tech extends Component {
       "UX/UI Principles",
       "Gatsby",
       "Firebase",
-      "GraqhQL"
+      "GraphQL"
     ],
 
   };
