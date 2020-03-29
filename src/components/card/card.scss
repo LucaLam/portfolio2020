@@ -18,6 +18,10 @@
     &__video{
         width: 100%;
         border-radius: 2px;
+
+        @include respond(phone){
+            display: none;
+            }
     }
 
     &__right{
@@ -31,6 +35,10 @@
         display: table-cell;
         width: 50%;
         padding-right: 2rem;
+
+        @include respond(phone){
+            display: none;
+            }
     }
 
 
@@ -48,6 +56,10 @@
             color: $default-font-color;
             font-family: $default-text-style;
             font-size: 1.8rem;
+
+            @include respond(phone){
+                font-size: 1.5rem;
+                }
 
             
         }

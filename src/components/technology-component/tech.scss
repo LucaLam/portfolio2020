@@ -4,6 +4,19 @@
     margin-top: 18rem;
     height: 100vh;
     clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+
+    @include respond(tab-land){
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+
+    @include respond(tab-port){
+        margin-bottom: 5rem;
+    }
+
+    @include respond(phone){
+        margin-top: 8rem;
+        margin-bottom: 0;
+    }
     
 
     .component-header{
@@ -15,6 +28,9 @@
         text-transform: uppercase;
         text-align: center;
 
+        @include respond(phone){
+            font-size: 3rem;
+            }
     }
 
     .row{
@@ -22,6 +38,10 @@
         margin: 0 auto;
         height: 80%;
         margin-left: 12rem;
+
+        @include respond(phone){
+            margin-left: 2rem;
+        }
     
         &:not(:last-child){
             margin-bottom: 2rem;
@@ -50,7 +70,6 @@
         // margin-left: 12rem;
         
         &__side{
-
         height: 40rem;
         transition: all .3s ease;
         position: absolute;
@@ -120,6 +139,8 @@
 
     }
 
+    
+
 }
 
 .card-2{
@@ -127,4 +148,73 @@
 
     left: 100%;
     top: -30rem;
+
+    @include respond (phone){
+        display: none;
+    }
 }
+
+@include respond(phone){
+    .card{
+        position: relative;
+        height: 30rem;
+        left: 50%;
+        
+        &__side{
+        height: 30rem;
+        transition: all .3s ease;
+        position: absolute;
+        width: 95%;
+        top:0;
+        left: 0;
+        backface-visibility: hidden;
+        border-radius: 3px;
+        box-shadow: 0 1.5rem 4rem rgba(#000000, .15);
+
+        &--front{
+            background-image: linear-gradient(to bottom, #093894, #032059);
+        }
+
+        &--back{
+            background-color: white;
+            transform: rotateY(0deg);
+        }
+
+        }
+
+        &:hover &__side--front{
+            transform: rotateY(0deg);
+        }
+
+        &:hover &__side--back{
+            transform: rotateY(0deg);
+        }
+
+        &__details{
+
+            padding: 2rem;
+
+            ul{
+                list-style: none;
+                width: 80%;
+                margin: 0 auto;
+
+                li{
+                    text-align: center;
+                    font-size: 1.4rem;
+                    padding: 1rem;
+                    font-family: $default-text-style;
+                    text-transform: uppercase;
+
+                    &:not(:last-child){
+                    border-bottom: 1px solid #eee;
+                }
+            }
+        }
+
+    }
+
+}
+
+
+    }

@@ -11,5 +11,9 @@
         font-weight: bold;
         width: 14%;
         color: $default-secondary-color;
+
+        @include respond(phone){
+            font-size: 3rem;
+            }
     }
 }
